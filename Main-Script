@@ -1,1 +1,10 @@
-loadstring(game:HttpGet"https://raw.githubusercontent.com/OverNightz-X/Script/main/BloxFruit")()
+local PlaceId = game.PlaceId
+if PlaceId == 2753915549 or PlaceId == 4442272183 or PlaceId == 7449423635 then
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/OverNightz-X/Script/main/BloxFruit")()
+elseif PlacId == 8357510970 then
+loadstring(game:HttpGet"https://raw.githubusercontent.com/OverNightz-X/Script/main/Anime%20Punching%20Simulator")()
+else
+	game.Players.LocalPlayer:kick("สคริปไม่มีเกมนี้ ไอ้ควาย")
+	wait(1)
+	game:Shutdown()
+end
